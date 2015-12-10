@@ -69,8 +69,8 @@ Sandcastle.addToolbarMenu([{
 
 Sandcastle.reset = function() {
     viewer.dataSources.removeAll();
-    //viewer.clock.clockRange = Cesium.ClockRange.UNBOUNDED;
-    //viewer.clock.clockStep = Cesium.ClockStep.SYSTEM_CLOCK;
+    viewer.clock.clockRange = Cesium.ClockRange.UNBOUNDED;
+    viewer.clock.clockStep = Cesium.ClockStep.SYSTEM_CLOCK;
 };
 //Sandcastle_End
     Sandcastle.finishedLoading();
